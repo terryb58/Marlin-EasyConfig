@@ -42,6 +42,7 @@
 //======================================================================
 /**************** TEVO TARANTULA EASY CONFIG ***************************
                    terryb.print3d@gmail.com
+                     Version 17080101
 
  First of all, the latest version of this file will always be found at:
           https://github.com/terryb58/Marlin-EasyConfig
@@ -95,6 +96,11 @@
 /* If you assembled your printer with the Y motor on the right uncomment
      the following line. */
 //#define Y_MOTOR_ON_RIGHT
+
+/* If you are not using the default LCD and either don't have an SD card
+   slot or don't know if you have one, disable the following line by adding
+   two // at the start of the line. */
+#define SD
 
 /************************ END OF EASY CONFIG ***************************
 //======================================================================
@@ -1340,8 +1346,9 @@
  * you must uncomment the following option or it won't work.
  *
  */
-//#define SDSUPPORT
-
+#ifdef SD
+#define SDSUPPORT
+#endif
 /**
  * SD CARD: SPI SPEED
  *
@@ -1357,7 +1364,9 @@
  *
  * Use CRC checks and retries on the SD communication.
  */
-//#define SD_CHECK_AND_RETRY
+#ifdef SDSUPPORT
+#define SD_CHECK_AND_RETRY
+#endif
 
 //
 // ENCODER SETTINGS
