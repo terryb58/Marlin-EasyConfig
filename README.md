@@ -1,6 +1,7 @@
 # Marlin-EasyConfig
 Marlin 3D Printer Firmware with Easy Config
 
+---------------------------------------------------------------------
                   TEVO TARANTULA EASY CONFIG 
                    terryb.print3d@gmail.com
 
@@ -14,6 +15,7 @@ Marlin 3D Printer Firmware with Easy Config
 
   NOTE: Sanity check should still work and should not show any errors.
     Please report any errors.  Thank you.
+--------------------------------------------------------------------
 
 Users usually don't know what settings are related and end up frustrated.  My goal is to create a small section in
 Configuration.h with the few #defines a new user needs to set and all the related settings are done by preprocessor
