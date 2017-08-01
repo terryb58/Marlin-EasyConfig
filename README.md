@@ -38,7 +38,7 @@ into this.
 Thank you to the Marlin team for such an awesome piece of software. Your contribution to the 3D printing community is
 invaluable.  
 
-Below is the list of #defines in the section of Configuration.h you must fill in.  Once you have done that, compile and upload to your Tevo Tarantula and you should be ready for your first print.  I will add explanations of each setting here when I get a chance.
+Below is the list of #defines in the section of Configuration.h you must fill in. They are explained in Configuration.h but I'll add explanations of each setting here when I get a chance.  Once you have done that, compile and upload to your Tevo Tarantula and you should be ready for your first print.  
 
 #define STOCK_MOTHERBOARD
 
