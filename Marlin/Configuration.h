@@ -43,6 +43,9 @@
 /**************** TEVO TARANTULA EASY CONFIG ***************************
                    terryb.print3d@gmail.com
 
+ First of all, the latest version of this file will always be found at:
+          https://github.com/terryb58/Marlin-EasyConfig
+
      This is an attempt to create a simple configuration for as many
   different Tevo Tarantula variants as possible.  This will always be
   a work in progress. Email me if you have any questions, suggestions,
