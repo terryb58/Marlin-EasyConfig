@@ -40,14 +40,14 @@ invaluable.
 
 Below is the list of #defines in the section of Configuration.h you must fill in.  Once you have done that, compile and upload to your Tevo Tarantula and you should be ready for your first print.  I will add explanations of each setting here when I get a chance.
 
-//#define STOCK_MOTHERBOARD
-//#define DUAL_EXTRUDER
-//#define LARGE_BED
-//#define BLTOUCH
-//#define SN04
-//#define SENSOR_LEFT_OF_NOZZLE      10
-//#define SENSOR_RIGHT_OF_NOZZLE     10
-//#define SENSOR_BEHIND_NOZZLE       10
-//#define SENSOR_IN_FRONT_OF_NOZZLE  10
-//#define Y_MOTOR_ON_RIGHT
+#define STOCK_MOTHERBOARD
+#define DUAL_EXTRUDER
+#define LARGE_BED
+#define BLTOUCH
+#define SN04
+#define SENSOR_LEFT_OF_NOZZLE      10
+#define SENSOR_RIGHT_OF_NOZZLE     10
+#define SENSOR_BEHIND_NOZZLE       10
+#define SENSOR_IN_FRONT_OF_NOZZLE  10
+#define Y_MOTOR_ON_RIGHT
 
