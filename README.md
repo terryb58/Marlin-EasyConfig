@@ -12,9 +12,10 @@ Marlin 3D Printer Firmware with Easy Config
 
      This is a Marlin 1.1.x configuration file. I will update this as
   new versions of Marlin are released.
-
-NOTE: Sanity check should still work and should not show any errors.
-       Please report any errors.  Thank you.     
+  
+     Marlin's built-in sanity check should still work so please contact
+ me at the email address above if you receive any erro messages.
+    
 --------------------------------------------------------------------
 
 Users usually don't know what settings are related and end up frustrated.  My goal is to create a small section in
