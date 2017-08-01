@@ -23,8 +23,7 @@ This will work specifically for the Tevo Tarantula and only works because I know
 it comes with.  This should help beginners get up and running in the shortest amount of time after finishing
 their build. 
 
-Nothing in the Marlin code has been changed. The only thing I have modified here is Configuration.h so you should be 
-able to download the official Marlin distribution, drop this Configuration.h file into the Marlin directory and compile.
+I initially had the full Marlin source code in this repo but since nothing in the Marlin code has been changed and the only thing I have modified is Configuration.h I have removed the rest of the code.  You should be able to download the official Marlin distribution, drop this Configuration.h file into the Marlin directory and compile.
 
 As of this post, the version I have tested this with is Marlin 1.1.x.  Specifically 1.1.4.  I will update as new 
 versions of Marlin are released.  
