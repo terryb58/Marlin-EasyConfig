@@ -4,6 +4,7 @@ Marlin 3D Printer Firmware with Easy Config
 ---------------------------------------------------------------------
                   TEVO TARANTULA EASY CONFIG 
                    terryb.print3d@gmail.com
+                      Version 17080101
 
      This is an attempt to create a simple configuration for as many
   different Tevo Tarantula variants as possible.  This will always be
