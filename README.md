@@ -4,7 +4,7 @@ Marlin 3D Printer Firmware with Easy Config
 ---------------------------------------------------------------------
                   TEVO TARANTULA EASY CONFIG 
                    terryb.print3d@gmail.com
-                      Version 17080101
+                      Version 17080102
 
      This is an attempt to create a simple configuration for as many
   different Tevo Tarantula variants as possible.  This will always be
@@ -61,3 +61,5 @@ Below is the list of #defines in the section of Configuration.h you must fill in
 
 #define Y_MOTOR_ON_RIGHT
 
+CHANGE LOG:
+17080201    Fixed sanity check error when enabling SN04. Z_MIN_ENDSTOP_INVERTING and Z_MIN_PROBE_ENDSTOP_INVERTING mismatch.
