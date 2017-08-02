@@ -42,7 +42,7 @@
 //======================================================================
 /**************** TEVO TARANTULA EASY CONFIG ***************************
                    terryb.print3d@gmail.com
-                     Version 17080101
+                     Version 17080201
 
  First of all, the latest version of this file will always be found at:
           https://github.com/terryb58/Marlin-EasyConfig
@@ -63,8 +63,9 @@
 /* If motherboard is the stock MKS Base board uncomment this. If your
     board is something else you'll have to configure it using the
     MOTHERBOARD entry. If not defined, the Marlin default motherboard
-    (BOARD_RAMPS_14_EFB) will be used. */
-//#define STOCK_MOTHERBOARD
+    (BOARD_RAMPS_14_EFB) will be used. (Changed to be enabled by default.
+    as of V.17080201) */
+#define STOCK_MOTHERBOARD
 
 /* If you have the dual extruder version uncomment this. Otherwise
     a single extruder configuration will be used. */
@@ -566,7 +567,11 @@
 #define X_MAX_ENDSTOP_INVERTING true  // set to true to invert the logic of the endstop.
 #define Y_MAX_ENDSTOP_INVERTING true  // set to true to invert the logic of the endstop.
 #define Z_MAX_ENDSTOP_INVERTING true  // set to true to invert the logic of the endstop.
+#ifdef SN04
+#define Z_MIN_PROBE_ENDSTOP_INVERTING false // set to true to invert the logic of the probe.
+#else
 #define Z_MIN_PROBE_ENDSTOP_INVERTING true // set to true to invert the logic of the probe.
+#endif
 
 // Enable this feature if all enabled endstop pins are interrupt-capable.
 // This will remove the need to poll the interrupt pins, saving many CPU cycles.
